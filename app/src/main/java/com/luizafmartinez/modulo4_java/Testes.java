@@ -2,7 +2,7 @@ package com.luizafmartinez.modulo4_java;
 
 public class Testes {
 
-    //        String nome = "Homer J. Simpson";
+//        String nome = "Homer J. Simpson";
 //        Integer idade = 35;
 //        idade = 20;
 //        System.out.println("Usuário: " + nome + "\nIdade: " + idade);
@@ -25,23 +25,24 @@ public class Testes {
 //        System.out.println(idadeC);
 //        char carac = 'F';
 //        System.out.println(carac);
-//
-//    int numero = 10 + 20;
+
+//        int numero = 10 + 20;
 //        System.out.println("Resultado: " + numero);
 //
-//    String numero2 = 10 + " Homer";
+//        String numero2 = 10 + " Homer";
 //        System.out.println("Resultado: " + numero2);
 //
-//    numero = 203 % 20;
+//        numero = 203 % 20;
 //        System.out.println("Resultado: " + numero);
 //
-//    int n1 = 10;
-//    int n2 = 30;
-//    int numx = n1 * n2;
+//        int n1 = 10;
+//        int n2 = 30;
+//        int numx = n1 * n2;
 //        System.out.println(numx);
 
-
-
+//        int idade2 = 15;
+//        boolean retorno = 99 != 17 ;
+//        System.out.println(retorno);
 
 
 
