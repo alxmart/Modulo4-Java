@@ -1,121 +1,143 @@
 package com.luizafmartinez.modulo4_java;
+
 class Scratch {
 
     public static void main(String[] args) {
 
-//        String nome = "Homer J. Simpson";
-//        Integer idade = 35;
-//        idade = 20;
-//        System.out.println("Usuário: " + nome + "\nIdade: " + idade);
-//        final Double PI = 3.14;
-//        final Integer QUANTIDADE_PESSOAS_COMPRA = 1000;
-//        System.out.println(PI);
+        /*
+        // Entrada
+        String nome;
 
-//        byte idade = 52;
-//        System.out.println(idade);
-//        int numeroCasa = 360;
-//        float preco = 34.90f;
-//        double total = 456.9867;
-//        boolean visivel = true;
-//        System.out.println("resultado: " + visivel);
-//
-//        System.out.println("Idade: " + idade);
-//
-//        // Classe Wrapper
-//        Byte idadeC = 52;
-//        System.out.println(idadeC);
-//        char carac = 'F';
-//        System.out.println(carac);
+        //Processamento
+        Integer idade = 35;
+        nome = "Jamilton Damasceno";
+        final Double PI = 3.14;
+        final Integer QUANTIDADE_PESSOAS_COMPRA = 2000;
 
-//        int numero = 10 + 20;
-//        System.out.println("Resultado: " + numero);
-//
-//        String numero2 = 10 + " Homer";
-//        System.out.println("Resultado: " + numero2);
-//
-//        numero = 203 % 20;
-//        System.out.println("Resultado: " + numero);
-//
-//        int n1 = 10;
-//        int n2 = 30;
-//        int numx = n1 * n2;
-//        System.out.println(numx);
+        idade = 20;
+        // Operação 1 QUANTIDADE_PESSOAS_COMPRA
+        //Operação 2 QUANTIDADE_PESSOAS_COMPRA
+        */
+        /*
+        // tipos primitivos
+        byte idade = 52;
+        int numeroCasa = 360;
+        float preco = 34.96f;
+        double total = 456.9867;
+        boolean visivel = false;// true(verdadeiro) false (falso)
+        char caractere = 'M';
 
-//        int idade2 = 15;
-//        boolean retorno = 99 != 17 ;
-//        System.out.println(retorno);
+        // classes wrapper
+        Byte idadeC = 52;
+        Integer numeroCasaC = 360;
+        Double totalC = 456.9867;
+        String nome = "jamilton damasceno";
+        */
+        /*
+        //String numero = 10 + " jamilton";
+        int n1 = 10;
+        int n2 = 2;
 
-//        double compras = 500.0;
-//        byte idade = 60;
-//
-//        boolean resultado = compras >= 300 && idade >= 50;
-//        System.out.println(resultado);
-//
-//
-//        if (compras > 300 && idade >= 50) {
-//            System.out.println("Preço a pagar: " + compras * 0.70);
-//        } else {
-//            System.out.println("Preço a pagar: " + compras);
-//        }
-//
-//        if (idade >= 18) {
-//            System.out.println("Pode entrar no App");
-//        } else {
-//            System.out.println("Não pode entrar no App !!");
-//        }
-//
-//        int n1 = 10;
-//        int n2 = 10;
-//        if (n1 > n2) {
-//            System.out.println("Maior: " + n1);
-//        } else {
-//            System.out.println("n2 é maior ou igual");
-//        }
-//
-//        int numero1 = 20;
-//        int numero2 = 10;
-//
-//        double compras = 1401.0;
+        int numero = n1 / n2;
+        //int numero = (1 + 2) * 2;
+        */
 
-        // 0 - 200   - sem desconto
-        // 201 - 400 - 20 % desc.
-        // 401 - 800 - 30 % desc.
-        // > 800  - 40 %
+        // = Recebe , == Igual a
+        // Testes lógicos (Verdade) ou (falso)
+        //boolean retorno = 2 == 1;// Verdade
+        //int idade = 15;
+        //boolean retorno = 11 <= 10;//==, !=, >, <, >=, <=
 
-//        if (compras <= 200.0) {
-//            System.out.println("Não tem desconto");
-//        } else if (compras >= 201 && compras <= 400.0) {
-//            System.out.println("20 % desconto");
-//        } else if (compras >= 401 && compras <= 800.0) {
-//            System.out.println("30 % desconto");
-//        } else{
-//                System.out.println("40 % desconto");
-//            }
-//
-//        int idade = 25;
-//        String texto = idade >= 18 ? "Maior de idade" : "Menor de idade";
-//        System.out.println("Resultado: " + texto);
+        /*
+         * Promoção 1 Mercado Livre
+         * compras >= 300  OU idade >= 50
+         * (30%) DESCONTO
+         *
+         * Promoção 2 Mercado Livre
+         * compras >= 300  E idade >= 50
+         * (30%) DESCONTO
+         * */
+        /*double compras = 50;
+        byte idade = 55;
+        boolean resultado = compras >= 300 || idade >= 50;
+        System.out.println("resultado:" + resultado );
+        if ( resultado ){// se
+            System.out.println("DESCONTO DE 30%");
+        }else {// Senão
+            System.out.println("não tem desconto");
+        }
+         */
+        /*
+        int numero1 = 20;
+        int numero2 = 10;
 
-//        int opcao = 1;
-//        switch (opcao) {
-//            case 1:
-//                System.out.println("Saldo Atual");
-//                break;
-//            case 2:
-//                System.out.println("Extrato");
-//                break;
-//            case 3:
-//                System.out.println("Cartões de Crédito");
-//                break;
-//            default:
-//                System.out.println("N enhuma opção selecionada");
-//        }
+        if( numero1 > numero2 ){
+            System.out.println("Número 1 é o maior");
+        }else{
+            System.out.println("Número 2 é o maior");
+        }
+         */
+        /*
+        < 200 - não tem desconto
+        201 e 400 - 20%
+        401 e 800 - 30%
+        > 801 - 40%
+        *
+        double compras = 900;
 
+        if( compras <= 200 ){
+            System.out.println("Não tem desconto");
+        }else if( compras >= 201 && compras <= 400 ){
+            System.out.println("desconto de 20%");
+        }else if( compras >= 401 && compras <= 800 ){
+            System.out.println("desconto de 30%");
+        }else if( compras >= 801 ){
+            System.out.println("desconto de 40%");
+        }*/
+        /*int idade = 12;
+        double compras = 100;
+        //String texto = idade >= 18 ? "Maior idade" : "Menor idade";
+        double desconto = compras >= 200 ? 20 : 0 ;
+        System.out.println("resultado: " + desconto );*/
+        /*if( idade >= 18 ){
+            System.out.println("Maior idade" );
+        }else {
+            System.out.println("Menor idade: ");
+        }*/
+        /*int opcao = 3;
+        switch ( opcao ){
+            case 1 :
+                System.out.println("Saldo atual");
+                break;
+            case 2 :
+                System.out.println("Extrato");
+                break;
+            case 3 :
+                System.out.println("cartões de crédito");
+                break;
+            default:
+                System.out.println("Nenhuma opção selecionada");
+        }*/
 
+        /*String nome = "Jamilton";
+        String[] nomes = {"Jamilton", "Maria", "Ana", "Pedro"};//0
+        int[] numeros = {200, 500, 800, 1000};*/
+        //String[] joao = {"João", "25"};
+        String[][] conversas = {
+                {"João", "Olá, tudo bem?"},//0
+                {"Maria", "Tudo certo"},//1
+                {"Pedro", "Não vi"},//2
+        };
+        /*
+           0       1
+        0  João    Olá, tudo bem?
+        1  Maria   Tudo certo
+        2  Pedro   Não vi
 
+        * */
 
-
+        //Saída
+        System.out.println("resultado: " + conversas[2][0] );
 
     }
-
 }
