@@ -1,6 +1,7 @@
 package com.luizafmartinez.modulo4_java;
+class Scratch {
 
-public class Testes {
+    public static void main(String[] args) {
 
 //        String nome = "Homer J. Simpson";
 //        Integer idade = 35;
@@ -44,9 +45,77 @@ public class Testes {
 //        boolean retorno = 99 != 17 ;
 //        System.out.println(retorno);
 
+//        double compras = 500.0;
+//        byte idade = 60;
+//
+//        boolean resultado = compras >= 300 && idade >= 50;
+//        System.out.println(resultado);
+//
+//
+//        if (compras > 300 && idade >= 50) {
+//            System.out.println("Preço a pagar: " + compras * 0.70);
+//        } else {
+//            System.out.println("Preço a pagar: " + compras);
+//        }
+//
+//        if (idade >= 18) {
+//            System.out.println("Pode entrar no App");
+//        } else {
+//            System.out.println("Não pode entrar no App !!");
+//        }
+//
+//        int n1 = 10;
+//        int n2 = 10;
+//        if (n1 > n2) {
+//            System.out.println("Maior: " + n1);
+//        } else {
+//            System.out.println("n2 é maior ou igual");
+//        }
+//
+//        int numero1 = 20;
+//        int numero2 = 10;
+//
+//        double compras = 1401.0;
+
+        // 0 - 200   - sem desconto
+        // 201 - 400 - 20 % desc.
+        // 401 - 800 - 30 % desc.
+        // > 800  - 40 %
+
+//        if (compras <= 200.0) {
+//            System.out.println("Não tem desconto");
+//        } else if (compras >= 201 && compras <= 400.0) {
+//            System.out.println("20 % desconto");
+//        } else if (compras >= 401 && compras <= 800.0) {
+//            System.out.println("30 % desconto");
+//        } else{
+//                System.out.println("40 % desconto");
+//            }
+//
+//        int idade = 25;
+//        String texto = idade >= 18 ? "Maior de idade" : "Menor de idade";
+//        System.out.println("Resultado: " + texto);
+
+//        int opcao = 1;
+//        switch (opcao) {
+//            case 1:
+//                System.out.println("Saldo Atual");
+//                break;
+//            case 2:
+//                System.out.println("Extrato");
+//                break;
+//            case 3:
+//                System.out.println("Cartões de Crédito");
+//                break;
+//            default:
+//                System.out.println("N enhuma opção selecionada");
+//        }
 
 
 
 
+
+
+    }
 
 }
