@@ -1,4 +1,5 @@
 package com.luizafmartinez.modulo4_java;
+
 class Scratch {
     public static void main(String[] args) {
 
@@ -146,7 +147,7 @@ class Scratch {
             System.out.println("número: " + numero );
             numero++;//
         }*/
-        String[] postagens = {
+        /*String[] postagens = {
                 "Fui a praia...",//0
                 "Fazendo trilha",//1
                 "Viagem para Nordeste",//2
@@ -158,7 +159,28 @@ class Scratch {
             System.out.println( " - " + postagens[numero] );
             System.out.println("-------------");
             numero++;
+        }*/
+
+        /*int numero = 1;
+        while( numero <= 5 ){//Verdade
+            System.out.println("número: " + numero );
+            numero++;
+        }*/
+        //for => para
+        // inicializaçao; condição; incremento
+        /*for( int numero = 1 ; numero <= 5 ; numero++ ){
+            System.out.println("número: " + numero );
         }
+        for (int i = 0; i < 6; i++) {
+            System.out.println("número: " + i );
+        }*/
+        int numero = 6;
+        do {// Faça
+            System.out.println("número: " + numero );
+            numero++;
+        }while( numero <= 5 );
+        //Saída
+        //System.out.println("resultado: " + postagens[3] );
 
     }
 }
