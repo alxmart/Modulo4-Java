@@ -1,7 +1,4 @@
-package com.luizafmartinez.modulo4_java;
-
 class Scratch {
-
     public static void main(String[] args) {
 
         /*
@@ -123,11 +120,11 @@ class Scratch {
         String[] nomes = {"Jamilton", "Maria", "Ana", "Pedro"};//0
         int[] numeros = {200, 500, 800, 1000};*/
         //String[] joao = {"João", "25"};
-        String[][] conversas = {
+        /*String[][] conversas = {
                 {"João", "Olá, tudo bem?"},//0
                 {"Maria", "Tudo certo"},//1
                 {"Pedro", "Não vi"},//2
-        };
+        };*/
         /*
            0       1
         0  João    Olá, tudo bem?
@@ -136,8 +133,19 @@ class Scratch {
 
         * */
 
-        //Saída
-        System.out.println("resultado: " + conversas[2][0] );
+        //Loops
+        //int numero = 10;
+        //numero = numero / 2;
+        //numero /= 2;
+        //numero--;
+        //numero--;
+
+        int numero = 1;
+        while( numero <= 5 ){//Verdade
+            System.out.println("número: " + numero );
+            numero++;//
+        }
+
 
     }
 }
