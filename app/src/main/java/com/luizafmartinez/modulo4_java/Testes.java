@@ -1,3 +1,5 @@
+package com.luizafmartinez.modulo4_java;
+
 class Scratch {
     public static void main(String[] args) {
 
