@@ -93,7 +93,7 @@ jogo-mario-kart
 
 ==========================================================================
 */
-class Jogador {
+/*class Jogador {
 
     String kart;
     String pneu;
@@ -102,20 +102,44 @@ class Jogador {
     void acelerar() {
         System.out.println("Acelerar: " + pneu );
     }
+}*/
+package com.luizafmartinez.modulo4_java;
+
+class Funcionario {
+
+    // Atributo
+    double salario = 0.0;
+
+    // Método void (Vazio -> Sem Retorno)
+    // Método com Retorno
+    // Método com Parâmetro
+    double calcularSalarioComDesconto(double bonus) {
+
+        double totalComDesconto = salario - 20.0 + bonus;
+        return totalComDesconto;
+    }
 }
 
-class Scratch {
+class Scratch2 {
     public static void main(String[] args) {
 
-        Jogador homer = new Jogador();
-        homer.kart = "Normal";
-        homer.planador = "paraquedas";
-        homer.pneu = "cross";
+       /* Jogador jamilton = new Jogador();
+        jamilton.kart = "Normal";
+        jamilton.planador = "paraquedas";
+        jamilton.pneu = "cross";
 
         Jogador computer = new Jogador();
         computer.pneu = "Avançado";
 
-        homer.acelerar();
-        computer.acelerar();
+        jamilton.acelerar();
+        computer.acelerar();*/
+        // Tela de Funcionario
+        Funcionario jamilton = new Funcionario();
+
+        jamilton.salario = 1000.0;
+        double salarioTotal= jamilton.calcularSalarioComDesconto(80.0);
+
+        System.out.println("Total Salário: " + salarioTotal);
+
     }
 }
