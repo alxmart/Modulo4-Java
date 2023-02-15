@@ -115,10 +115,6 @@ jogo-mario-kart
     }
 
 
-
-
-
-
 }*/
 /*class CarrinhoCompras {
 
@@ -132,8 +128,7 @@ jogo-mario-kart
 
 }*/
 
-/*
-class ContaBancaria {
+/*class ContaBancaria {
 
     ContaBancaria(String conta, String senha){
 
@@ -144,38 +139,75 @@ class ContaBancaria {
 
 }*/
 
-
-
 class Usuario {
 
-    // Atributos:
+    //Atributos
+
     String email;
     String senha;
 
-    // Construtor:
-    Usuario(String email, String senha) {
-        System.out.println("Construtor Chamado");
-        this.email = email;
-        this.senha = senha;
+    //Construtor
+    // Assinatura de método: nome + parametro e tipo
+
+    Usuario(String email, String senha){
+
+        System.out.println("Autenticação por e-mail e senha");
+        /*this.email = email;
+        this.senha = senha;*/
     }
 
-    // Método:
-    void verificarUsuarioLogado() {
+    Usuario(String telefone){
+        System.out.println("Autenticação por telefone");
     }
+
+    //Método
+    void verificarUsuarioLogado(){
+
+    }
+
 }
 
 class Scratch {
     public static void main(String[] args) {
 
-        Usuario usuario = new Usuario
-                ("homer@springfield.com","GoToMoes");
+        //Usuario usuario = new Usuario("jamilton@gmail.com", "123454");
+        Usuario usuario = new Usuario("11965254545");
 
-        System.out.println("Email: " + usuario.email +
-                " \nSenha: " + usuario.senha);
+        //System.out.println("email: " + usuario.email + " senha: " + usuario.senha);
 
-//    usuario.email = "homer@springfield.com";
-//    usuario.senha = "GoToMoes";
-        usuario.verificarUsuarioLogado();
+        /*usuario.email = "jamilton@gmail.com";
+        usuario.senha = "123454";
+
+        usuario.verificarUsuarioLogado();*/
+
+
+        /*CarrinhoCompras carrinho = new CarrinhoCompras();
+        double valorFrete = carrinho.calcularValorFrete( "05021-520" );*/
+
+        //Tela de funcionário
+       /* Funcionario jamilton = new Funcionario();
+        jamilton.salario = 1000;// double bonus = 80
+        double salarioTotal = jamilton.calcularSalarioComDesconto( 80 );
+
+        System.out.println("total salario: " + salarioTotal );*/
+
+        /*//Criar Instancia de um Objeto
+        Jogador jamilton = new Jogador();
+        jamilton.kart = "Normal";
+        jamilton.pneu = "cross";
+        jamilton.planador = "paraquedas";
+
+        jamilton.acelerar();
+
+        */
+        /* Pista *//*
+        Jogador computador = new Jogador();
+        computador.pneu = "Avançado";
+
+        computador.acelerar();
+
+        String nome = "jamilton";*/
+
+
     }
-
 }
