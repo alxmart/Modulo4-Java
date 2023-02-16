@@ -142,72 +142,78 @@ jogo-mario-kart
 class Usuario {
 
     //Atributos
-
     String email;
     String senha;
 
-    //Construtor
     // Assinatura de método: nome + parametro e tipo
+    // =====================================================
 
-    Usuario(String email, String senha){
-
+    Usuario(String email, String senha) {
         System.out.println("Autenticação por e-mail e senha");
-        /*this.email = email;
-        this.senha = senha;*/
+        this.email = email;
+        this.senha = senha;
     }
 
-    Usuario(String telefone){
+    Usuario(String telefone) {
         System.out.println("Autenticação por telefone");
     }
 
-    //Método
-    void verificarUsuarioLogado(){
+    // Construtor
+    Usuario() {
 
     }
 
+    void logar(String email, String senha){
+        System.out.println("Autenticação com e-mail e senha");
+    }
+
+    void logar(String email, int token){
+        System.out.println("Autenticação com e-mail e TOKEN");
+    }
+
+    void logar(String telefone){
+        System.out.println("Autenticação com telefone");
+    }
+
+    //Método
+    void verificarUsuarioLogado() {
+
+    }
+
+    void calcularIMC() {
+        System.out.println("IMC");
+    }
+
 }
+
+class Filtro {
+
+    void pretoEBranco(String imagem){
+        System.out.println("Filtro preto e branco padrão");
+    }
+
+    void pretoEBranco(String imagem, int nivelPretoBranco){
+        System.out.println("Filtro preto e branco com nível");
+    }
+
+    void pretoEBranco(String imagem, String opacidade){
+        System.out.println("Filtro preto e branco com opacidade");
+    }
+}
+
+
 
 class Scratch {
     public static void main(String[] args) {
 
-        //Usuario usuario = new Usuario("jamilton@gmail.com", "123454");
-        Usuario usuario = new Usuario("11965254545");
-
-        //System.out.println("email: " + usuario.email + " senha: " + usuario.senha);
-
-        /*usuario.email = "jamilton@gmail.com";
-        usuario.senha = "123454";
-
-        usuario.verificarUsuarioLogado();*/
-
-
-        /*CarrinhoCompras carrinho = new CarrinhoCompras();
-        double valorFrete = carrinho.calcularValorFrete( "05021-520" );*/
-
-        //Tela de funcionário
-       /* Funcionario jamilton = new Funcionario();
-        jamilton.salario = 1000;// double bonus = 80
-        double salarioTotal = jamilton.calcularSalarioComDesconto( 80 );
-
-        System.out.println("total salario: " + salarioTotal );*/
-
-        /*//Criar Instancia de um Objeto
-        Jogador jamilton = new Jogador();
-        jamilton.kart = "Normal";
-        jamilton.pneu = "cross";
-        jamilton.planador = "paraquedas";
-
-        jamilton.acelerar();
-
-        */
-        /* Pista *//*
-        Jogador computador = new Jogador();
-        computador.pneu = "Avançado";
-
-        computador.acelerar();
-
-        String nome = "jamilton";*/
-
+        Usuario usuario = new Usuario();
+        //usuario.logar("j@gmail,com","212121");
+        //usuario.logar("11988887777");
+        usuario.logar("sasa@sasasa", 1234212);
 
     }
+
 }
+
+
+
