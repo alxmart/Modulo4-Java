@@ -1,11 +1,16 @@
 package com.luizafmartinez.modulo4_java.classes;
 
-public class Cliente {
+public class Cliente extends ContaBancaria {
 
-    void teste() {
+//    void teste() {
+//        ContaBancaria conta = new ContaBancaria();
+//    }
 
-        ContaBancaria conta = new ContaBancaria();
+ void teste() {
+     this.sacar();
+     this.saldo = 10;
+ }
 
 
-    }
+
 }

@@ -3,7 +3,7 @@ package com.luizafmartinez.modulo4_java.classes;
 public class ContaBancaria {
 
     // Atributos
-    private double saldo = 0.0;
+    protected double saldo = 0.0;
 
     // Métodos
 
